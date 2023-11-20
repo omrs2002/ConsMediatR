@@ -1,16 +1,13 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Reflection;
+
 
 namespace ConsMediatR
 {
-
-  
     internal class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
 
@@ -39,6 +36,7 @@ namespace ConsMediatR
                       Console.WriteLine(response);
                   })
                   .Build();
+
 
         }
     }
