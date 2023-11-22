@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace ConsMediatR
+namespace ConsMediatR.Requests
 {
     public class SampleRequestHandler : IRequestHandler<SampleRequest, string>
     {

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<Using Include="System.Console" Static="true" />
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />

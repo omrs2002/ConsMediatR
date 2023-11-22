@@ -2,7 +2,7 @@
 
 
 
-namespace ConsMediatR
+namespace ConsMediatR.Requests
 {
 
     public class SampleRequest : IRequest<string>
